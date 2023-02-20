@@ -21,12 +21,6 @@ export function TransactionTable() {
       </thead>
       <tbody>
         <tr>
-          <td> Pc </td>
-          <td>6.000</td>
-          <td>Placa de video</td>
-          <td>18/02/2023</td>
-        </tr>
-        <tr>
           <td>Desenvolvimento de web site</td>
           <td className="deposit">12.000</td>
           <td>Desenvovimento</td>
