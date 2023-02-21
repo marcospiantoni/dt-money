@@ -1,5 +1,6 @@
-import closeImg from '../../assets/Fechar.svg';
+import closeImg from '../../assets/close.svg';
 import styled from "styled-components";
+import { darken } from 'polished';
 
 export const Container = styled.form`
 h2 {
@@ -47,4 +48,39 @@ input {
     filter: brightness(0.8);
    }
 }
+`
+
+export const TransactionTypeContainer = styled.div`
+ margin: 1rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 0.5rem;
+
+ button {
+  height: 4rem;
+  border: 1px solid #D7D7D7;
+  
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3;
+
+  &:hover {
+    border-color: ${darken(0.1, '#D7D7D7')} ;
+  }
+ }
+
+ img {
+  width: 20px;
+  height: 20px;
+ }
+
+ span {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: var(--text-title);
+ }
 `

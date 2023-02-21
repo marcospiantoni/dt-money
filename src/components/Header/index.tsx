@@ -1,4 +1,4 @@
-import logoImg from '../../assets/Logo.svg';
+import logoImg from '../../assets/icon.svg';
 import { Container, Content } from './styles';
 
 interface HeaderProps {
