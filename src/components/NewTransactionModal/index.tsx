@@ -7,7 +7,6 @@ import Modal from 'react-modal'
 import { Container, TransactionTypeContainer, RadioBox } from './styles';
 
 
-
 interface NewTransactionModalProps {
   isOpen: boolean;
   onRequestClose: () => void;
