@@ -3,7 +3,7 @@ import { TransactionsContext } from "../../TransactionsContext";
 import { Container } from "./styles";
 
 export function TransactionTable() {
- const transaction = useContext(TransactionsContext);
+ const { transactions } = useContext(TransactionsContext);
 
   return  (
    <Container>
@@ -17,7 +17,7 @@ export function TransactionTable() {
         </tr>
       </thead>
       <tbody>
-      { transaction.map(transaction => {
+      { transactions.map(transaction => {
         return (
           <tr key={transaction.id}>
           <td>{transaction.title}</td>
