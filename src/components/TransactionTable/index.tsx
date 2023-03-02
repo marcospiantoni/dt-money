@@ -1,14 +1,9 @@
-import { Trash } from "phosphor-react";
-import CodeSimple from "phosphor-react/dist/icons/CodeSimple";
 import { useTransactions } from "../../hooks/useTransactions";
-import { Container, DeleteTranslations } from "./styles";
+import { DeleteTransactions } from "../DeleteTransactions";
+import { Container } from "./styles";
 
 export function TransactionTable() {
  const { transactions } = useTransactions()
-
- function DeleteTranslation() {
-  console.log('deletar')
- }
 
   return  (
    <Container>
@@ -39,9 +34,7 @@ export function TransactionTable() {
             )}
           </td>
           <td>
-          <DeleteTranslations title="Deletar transação">
-              <Trash size={25} onClick={DeleteTranslation} />
-          </DeleteTranslations>
+           <DeleteTransactions />
           </td>
         </tr>
         )
