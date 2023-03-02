@@ -1,13 +1,16 @@
 # dt-money
 
+## Controle de finanças pessoal.
+
 Para testar o projeto: 
-1- copie:
 
-2- Abra o cmd no pc e escreva "git clone "
+1- copie: https://github.com/marcospiantoni/dt-money.git
 
-3- Entre na pasta, e abra no seu editor de texto 
+2- Abra o cmd do seu computador e digite "git clone https://github.com/marcospiantoni/dt-money.git "
 
-4- De um "npm i"
+3- Entre na pasta do projeto, e abra no seu editor de texto 
+
+4- Abra o terminal, de um "npm i" para instalar as dependências
 
 5- Por final "npm run dev"
 
