@@ -1,15 +1,11 @@
-import {DeleteTransaction } from './styles'
+import {DeleteTransactions} from './styles'
 
 import { Trash } from "phosphor-react";
 
-export function DeleteTransactions() {
-  function DeleteTransactions() {
-    console.log('deletar')
-   }
-
-  return(
-    <DeleteTransaction title="Deletar transação">
+export function DeleteTransaction() {
+  return (
+    <DeleteTransactions title="Deletar transação">
       <Trash size={25} onClick={DeleteTransactions} />
-   </DeleteTransaction>
+   </DeleteTransactions>
   )
 }

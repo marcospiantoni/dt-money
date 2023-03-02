@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const DeleteTransaction = styled.button`
+export const DeleteTransactions = styled.button`
 color: var(--text-body);
 background: transparent;
 border: 0;

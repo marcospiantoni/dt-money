@@ -1,5 +1,5 @@
 import { useTransactions } from "../../hooks/useTransactions";
-import { DeleteTransactions } from "../DeleteTransactions";
+import { DeleteTransaction } from "../DeleteTransactions";
 import { Container } from "./styles";
 
 export function TransactionTable() {
@@ -34,7 +34,7 @@ export function TransactionTable() {
             )}
           </td>
           <td>
-           <DeleteTransactions />
+           <DeleteTransaction />
           </td>
         </tr>
         )
